@@ -13,3 +13,19 @@ uuid = { version = "0.4", features = ["v4"] }
 dbus = "0.5.2"
 regex = "0.2"
 nix = "0.8.1"
+
+[features]
+default = ["time", "template", "load", "memory", "cpu", "music", "battery", "custom", "disk_space", "pacman", "temperature", "toggle", "sound"]
+time = []
+template = []
+load = []
+memory = []
+cpu = []
+music = []
+battery = []
+custom = []
+disk_space = []
+pacman = []
+temperature = []
+toggle = []
+sound = []
